@@ -32,7 +32,7 @@ Welcome to the Todo App Project. In this project, we have implemented a todo pro
 ## Installation
 
 1. Clone the repository
-git clone https://github.com/your_username/your_repo.git
+git clone https://github.com/MyTodoApp/your_repo.git
 
 2. Change the directory to the cloned repository
 cd your_repo
