@@ -2,6 +2,11 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
+## Live Link
+[TodoApp demo](https://todo-wizard-ninja.netlify.app/)
+
+
 # Todo App Project
 
 This project is a Todo app built with React for the user interface.
@@ -18,8 +23,6 @@ This project is a Todo app built with React for the user interface.
 
 Welcome to the Todo App Project. In this project, we have implemented a todo proejct with a CRUD operation. We also use local storage to save data in the web browser. Additionally, we provide filteration capabilities for users to filter out their tasks based on their needs.
 
-## Live Link
-[todo demo](https://todo-wizard-ninja.netlify.app/)
 
 ## Features
 
