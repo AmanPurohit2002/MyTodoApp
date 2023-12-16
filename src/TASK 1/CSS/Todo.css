@@ -1,0 +1,165 @@
+/* Todo Parent*/
+.todo{
+  background-image: url('https://img.freepik.com/premium-photo/office-work-flat-lay-girl-writing-list-clip-board-computer-supplies-coffee_73169-58.jpg');
+  background-size: cover; /* Adjust the image size as needed */
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  
+}
+
+/* TodoList.css */
+
+.listRender {
+  padding: 20px;
+}
+
+.listPutting {
+  display: flex;
+  align-items: center;
+  background-color: #bb5ef6fc;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: auto;
+  width: 50%;
+  margin-bottom: 10px;
+}
+
+.listPutting input[type="checkbox"] {
+  margin-right: 10px;
+
+}
+
+.listPutting input[type="checkbox"]:checked+label {
+  text-decoration: line-through;
+
+}
+
+.listPutting label {
+  flex-grow: 1;
+  font-size: 18px;
+  color: #333;
+}
+
+.listPutting button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.listPutting button:focus {
+  outline: none;
+}
+
+.listPutting button svg {
+  font-size: 24px;
+  color: #f44336;
+  transition: color 0.2s;
+}
+
+.listPutting button:hover svg {
+  color: #d32f2f;
+}
+
+
+
+
+/*Todo Form.css */
+
+
+.form input[type="text"] {
+  width: 50%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 2px solid #007bff;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+
+
+
+.form button#formBtn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 10px;
+  transition: background-color 0.3s;
+  
+} 
+
+
+
+.form button#formBtn:focus {
+  background-color: #0056b3;
+}
+
+
+
+/* TodoHeader.css */
+
+.header {
+  /* background-color: #0a506e; */
+  background: transparent;
+  color: black;
+  padding: 30px 0;
+  text-align: center;
+  /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+  margin-bottom: 10px;
+}
+
+.header h1 {
+  font-size: 36px;
+  margin: 0;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.header p {
+  font-size: 18px;
+  margin-top: 10px;
+  opacity: 0.8;
+}
+
+/* TodoFooter.css */
+
+.footer {
+  /* background-color: #fff; */
+  background: transparent;
+  padding: 25px 0;
+  text-align: center;
+  font-size: 18px;
+  color: #9c27b0;
+  /* box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); */
+}
+
+.footer strong {
+  font-weight: bold;
+}
+
+.footer button {
+  margin: 0 5px;
+  padding: 5px 10px;
+  background-color: transparent;
+  border: 1px solid #007bff;
+  color: #007bff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.footer button:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.footer span {
+  display: block;
+  margin-top: 5px;
+}

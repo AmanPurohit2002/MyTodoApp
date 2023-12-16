@@ -2,6 +2,53 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Todo App Project
+
+This project is a Todo app built with React for the user interface.
+
+## Table of Contents
+
+- [About the Project](#about-the-project)
+- [Features](#features)
+- [Installation](#installation)
+- [Contributing](#contributing)
+- [License](#license)
+
+## About the Project
+
+Welcome to the Todo App Project. In this project, we have implemented a todo proejct with a CRUD operation. We also use local storage to save data in the web browser. Additionally, we provide filteration capabilities for users to filter out their tasks based on their needs.
+
+## Live Link
+[todo demo](https://todo-wizard-ninja.netlify.app/)
+
+## Features
+
+- Create tasks
+- Edit tasks
+- Delete tasks
+- Save tasks using local storage
+- Filter tasks based on needs
+
+## Installation
+
+1. Clone the repository
+git clone https://github.com/your_username/your_repo.git
+
+2. Change the directory to the cloned repository
+cd your_repo
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+
+
 ## Available Scripts
 
 In the project directory, you can run:
